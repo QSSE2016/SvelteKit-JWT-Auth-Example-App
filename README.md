@@ -9,6 +9,6 @@ I would recommend checking out the `explain.md` file, that should clear up most 
 To run the app, just:
 
 - `npm i`
-- `npm run dev`
+- `npm run dev` (uses Vite)
 
 That's it. Hopefully this helps!
