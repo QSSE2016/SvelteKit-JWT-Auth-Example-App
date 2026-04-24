@@ -1,42 +1,14 @@
-# sv
+# SvelteKit JWT Auth Demo
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is a small app, detailing a way to implement JWT auth in SvelteKit using jose (a JSON Object Signing and Encryption package). Tailwind is also used for some basic styling.
 
-## Creating a project
+You should be able to understand the basic flow stateless auth and what access tokens are and what refresh tokens are. Feel free to take a look at the code or even write it down to better learn these concepts.
 
-If you're seeing this, you've probably already done this step. Congrats!
+I would recommend checking out the `explain.md` file, that should clear up most questions related to web security and/or specifics in this demo. You should also be able to piece together what needs to be removed if you don't want refresh tokens in your app.
 
-```sh
-# create a new project
-npx sv create my-app
-```
+To run the app, just:
 
-To recreate this project with the same configuration:
+- `npm i`
+- `npm run dev`
 
-```sh
-# recreate this project
-npx sv@0.15.1 create --template minimal --types ts --install npm stateless-auth-example-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+That's it. Hopefully this helps!
